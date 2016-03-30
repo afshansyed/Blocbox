@@ -42,6 +42,9 @@
    min-height: 1px;
    margin:0 2% 20px;
  }
+ .one-fourth.alternate {
+   margin:20px 2% 20px;
+ }
 
  @media (min-width: 768px) {
    .container {
@@ -291,4 +294,4 @@
    text-align: left;
    font-size:13px;
    margin-top: 30px;
- }
+}
