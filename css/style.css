@@ -26,6 +26,7 @@
    padding-left: 15px;
    padding-right: 15px;
    position: relative;
+ 
  }
  .container:before,
  .container:after {
@@ -45,7 +46,6 @@
  .one-fourth.alternate {
    margin:20px 2% 20px;
  }
-
  @media (min-width: 768px) {
    .container {
      width: 750px;
@@ -68,7 +68,8 @@
  @media (min-width: 1200px) {
    .container {
      width: 1170px;
-   }
+   } 
+}
  @media (min-width: 1800px) {
    .container {
      width: 1600px;
@@ -323,12 +324,11 @@
  footer .right-footer-block {
    background-color: transparent;
  }
- footer .logo{
-   padding: 2.35em 0;
+  footer .logo{
    margin: 0 auto;
    display: block;
  }
-@media (min-width: 992px){
+ @media (min-width: 992px){
    footer{
      background-color: #3498DB;
      background-image: linear-gradient(to left,
@@ -345,4 +345,4 @@
    footer .logo{
      padding: 2em 0 2em 1.5em;
    }
- }
+ 
