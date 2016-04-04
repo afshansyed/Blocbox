@@ -393,6 +393,9 @@
    text-align: center;
    margin-right:8px;
  }
+ .left-nav .selected {
+   background-color:#00B25B
+}
 /* LEFT NAVBAR SETTINGS */
  .left-nav .settings {
    position:absolute;
